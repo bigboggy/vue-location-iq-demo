@@ -1,22 +1,17 @@
 <script setup>
-import {VueLocationIQ} from "vue-location-iq";
-import 'vue-location-iq/dist/style.css';
-import {ref} from 'vue'
+import { VueLocationIQ } from 'vue-location-iq'
+import 'vue-location-iq/dist/style.css'
+import { ref } from 'vue'
 
 const apiKey = import.meta.env.VITE_LOCATION_IQ_KEY
 const searchPrompt = ref('')
-
 </script>
 <template>
   <div class="demo-page">
     <h1>VueLocationIQ Demo</h1>
-    <VueLocationIQ
-        :api-key="apiKey"
-        v-model="searchPrompt"
-    />
+    <VueLocationIQ :api-key="apiKey" v-model="searchPrompt" />
   </div>
 </template>
-
 
 <style>
 body,
@@ -39,4 +34,3 @@ html {
   }
 }
 </style>
-

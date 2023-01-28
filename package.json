@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "prettier": "^2.8.3",
     "vue": "^3.2.45",
-    "vue-location-iq": "^0.0.52"
+    "vue-location-iq": "^0.0.53"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
