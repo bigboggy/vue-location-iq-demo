@@ -358,10 +358,10 @@ vite@^4.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue-location-iq@^0.0.53:
-  version "0.0.53"
-  resolved "https://registry.yarnpkg.com/vue-location-iq/-/vue-location-iq-0.0.53.tgz#1761f4bc27df2b648e04f8987fe69e5e8b3c3fce"
-  integrity sha512-JPa4UPUwuI6UMgxLdRdgEm7DgkGzJSqpmmcika4qrLDtgK408KioS8fzlz5JfW4RNP2XBk6XcQWQti4Q4P2aRQ==
+vue-location-iq@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/vue-location-iq/-/vue-location-iq-0.0.54.tgz#d933e56acde2bd11e0a8bab914455f81b1ab0142"
+  integrity sha512-TI/agehqkSTGNdTRH9vuFOmUhl0LggurWAjs8h2jlVbXDUe2jL/mQkVWI/QrDNHZcJ2JeCEaMX4SBZVElj50cw==
   dependencies:
     prettier "^2.8.3"
     vue "^3.2.45"
